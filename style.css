@@ -63,6 +63,15 @@ html, body {
   font-size: 4em;
   margin: 1rem;
 }
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .fun {
   width:100%;
   margin: 2rem;
@@ -120,6 +129,12 @@ hr.light-100 {
 
 
 /*---Media Queries --*/
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
