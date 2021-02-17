@@ -32,6 +32,10 @@ html, body {
   background-color: #bf0000;
   border: 1px solid #bf0000;
 }
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  background-color: #df1223;
+  border: 1px solid #df1223;
+}
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
